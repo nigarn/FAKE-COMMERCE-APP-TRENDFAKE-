@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 64">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 57px;
+        font-family: ArialMT, Arial;
+        letter-spacing: 0.003em;
+      }
+    </style>
+  </defs>
+  <text id="trendfake" class="cls-1" transform="translate(0 52)"><tspan x="0" y="0">trendfake</tspan></text>
+</svg>

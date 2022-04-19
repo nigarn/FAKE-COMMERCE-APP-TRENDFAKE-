@@ -1,0 +1,36 @@
+.container {
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0 auto;
+}
+.item-card {
+  width: 250px;
+  height: 350px;
+  margin-left: 20px;
+  
+}
+.item-img {
+  // position: absolute;
+  //top: 0;
+  width: 100%;
+  padding: 35px;
+  height: 250px;
+  img {
+    object-fit: contain;
+    width: 100%;
+    height: 80%;
+  }
+}
+.item-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100px;
+  padding: 0 14px;
+  .prc-rat {
+    display: flex;
+  }
+}

@@ -1,0 +1,25 @@
+@use "layout/colors.scss" as c;
+.header {
+  width: 1200px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 25px; */
+  margin: 0 auto;
+  img {
+    width: 146px;
+  }
+  .log-in {
+    display: flex;
+    align-items: center;
+    svg {
+      font-size: 25px;
+      margin-right: 5px;
+    }
+    &:hover {
+      cursor: pointer;
+      color: c.$base-color;
+    }
+  }
+}
